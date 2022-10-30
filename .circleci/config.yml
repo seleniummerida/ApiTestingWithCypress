@@ -9,7 +9,7 @@ daily-run-workflow:
    triggers:
      - schedule:
          # Every day, 0421Z.
-         cron: "05 03 * * *"
+         cron: "05 05 * * *"
          filters:
            branches:
              only:
